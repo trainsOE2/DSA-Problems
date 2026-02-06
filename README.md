@@ -1,2 +1,2 @@
 # DSA-Problems
-Every dya check ins to solve DSA Problems
+Every day check-in to solve DSA Problems
