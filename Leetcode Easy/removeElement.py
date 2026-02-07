@@ -1,20 +1,21 @@
-class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+nums = [0,1,2,2,3,0,4,2]
+val = 2
 
-        corr = []
-        for item in nums:
-            if(item != val):
-                corr.append(item)
+corr = []
+for item in nums:
+    if(item != val):
+        corr.append(item)
 
-        # print(corr)
-        # print(nums)
+# print(corr)
+# print(nums)
 
-        i = 0
-        for item in corr:
-            nums[i] = item
-            # print("i: ", i)
-            # print("item: ", item)
-            # print(nums)
-            i = i+1
+i = 0
+for item in corr:
+    nums[i] = item
+    # print("i: ", i)
+    # print("item: ", item)
+    # print(nums)
+    i = i+1
 
-        return len(corr)
+print(corr)
+print(len(corr))
