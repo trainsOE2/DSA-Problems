@@ -1,0 +1,10 @@
+# macOS system files
+.DS_Store
+
+# Python cache (if you run your scripts)
+__pycache__/
+*.py[cod]
+
+# Local environment/IDE folders (optional but recommended)
+.vscode/
+.idea/
